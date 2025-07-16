@@ -1,4 +1,44 @@
+ /*
+* 
+* @author Luciano Silva
+* @version 1.2
+*/
+
+/* ========================= Geral ========================= */
+/*@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');*/
 :root {
-  --color-red: #ff3333;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-transform: initial;
+  font-family: Comfortaa, Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  background-color: whitesmoke;
 }
 
+}
+/* ========================= Cabeçalho ========================= */
+.tf-container{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.imagem-barra{
+  width: 100%;
+  height: 75px;
+}
+.logo-Pgw {
+  height: 60px;
+  padding: 5px;
+  margin-top: -70px;
+  display: flex;
+  background: url("img/.logo-Pgw") no-repeat;
+  background-size: 10%;
+}
+/* ============================================================== */
