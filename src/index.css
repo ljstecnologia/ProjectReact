@@ -24,14 +24,16 @@ body {
 }
 /* ========================= Cabeçalho ========================= */
 .tf-container{
-  width: 100%;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
+  
 }
 
 .imagem-barra{
   width: 100%;
   height: 75px;
+  padding: 0 ;
 }
 .logo-Pgw {
   height: 60px;
