@@ -1,8 +1,8 @@
-#menu-inicia-tf-container{
+#tf-menuinicial-container{
   padding: 20px;
 }
 
-.menu-inicial-tf{
+.tf-menuinicial{
   padding: 30px;
   font-size: 14px;
   display: flex;
@@ -18,7 +18,7 @@
 
 }
 
-.menu-inicial-tf-detalhes{
+.tf-menuinicial-detalhes{
   border: 1px solid #d9d9d9;
   border-radius: 15px;
   background-color: #fff;
@@ -26,17 +26,17 @@
   margin: 0 auto;
 }
 
-.menu-inicial-tf-detalhes-top{
+.tf-menuinicial-detalhes-top{
   border-bottom: 1px solid #d9d9d9;
   display: flex;
   justify-content: center;
 }
 
-.menu-inicial-tf-detalhes-bottom{
+.tf-menuinicial-detalhes-bottom{
   padding: 30px 0;
 }
 
-.menu-inicial-tf-detalhes-bottom h2{
+.tf-menuinicial-detalhes-bottom h2{
   padding: 30px 5px;
   color: #848484;
 
@@ -46,7 +46,7 @@
 
 }
 
-.menu-inicial-tf-detalhes-bottom p{
+.tf-menuinicial-detalhes-bottom p{
   padding: 30px 5px;
   font-size: 14px;
   font-weight: 700;
@@ -58,19 +58,19 @@
   
 }
 
-.menu-inicial-tipo-tf-container{
+.tf-menuinicial-tipo-container{
   padding: 20px 0;
   display: flex;
   flex-wrap: wrap;
 }
 
-.menu-inicial-btn-tipo-tf a {
+.tf-menuinicial-btn-tipo a {
    color: #fff;
   text-transform: initial;
   text-decoration: none;
 }
 
-.menu-inicial-btn-tipo-tf{
+.tf-menuinicial-btn-tipo{
   background-color: #007ad9;
   border-radius: 5px;
   height: 30px;
