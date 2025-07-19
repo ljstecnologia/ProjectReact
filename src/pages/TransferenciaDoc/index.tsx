@@ -1,11 +1,9 @@
 import './styles.css'
-import Header from "../../components/Header";
 
 export default function TransfDoc(){
   return(
-    <>
-    <Header />
-      <main>
+    
+    <main>
       <section  id="tf-doc-container">
           <div  className='tf-doc-transf'>
             <h1>Transferência de valores</h1>
@@ -19,8 +17,6 @@ export default function TransfDoc(){
           </div>
       </section>
     </main>
-
-    </>
 
   );
 }

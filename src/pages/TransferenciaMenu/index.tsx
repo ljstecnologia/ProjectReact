@@ -1,10 +1,8 @@
 import './styles.css';
-import Header from "../../components/Header";
 
 export default function TransferenciaMenu(){
   return(
-    <>
-      <Header />
+   
       <main>
         <section  id="tf-menuinicial-container">
           <div  className='tf-menuinicial'>
@@ -29,6 +27,5 @@ export default function TransferenciaMenu(){
       </section>
 
       </main>
-    </>
   );
 }

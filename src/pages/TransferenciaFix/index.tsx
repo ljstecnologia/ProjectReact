@@ -1,11 +1,9 @@
 import './styles.css'
-import Header from "../../components/Header";
 
 export default function TransfPix(){
   return(
-    <>
-    <Header />
-      <main>
+    
+    <main>
       <section id="tf-pix-container">
         <div  className='tf-pix-transf'>
           <h1>Transferência de valores</h1>
@@ -19,8 +17,6 @@ export default function TransfPix(){
       </section>
 
     </main>
-
-    </>
 
   );
 }
