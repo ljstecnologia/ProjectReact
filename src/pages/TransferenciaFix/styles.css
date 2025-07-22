@@ -1,5 +1,5 @@
 
-#tf-doc-container {
+#tf-pix-container {
   padding: 20px;
 }
 
@@ -19,18 +19,22 @@
 
 }
 
+.tf-pix-detalhes h3 {
+  padding: 30px 0;
+}
+
 .tf-pix-detalhes h3{
   color: #848484;
-  padding: 30px;
 }
 .tf-pix-detalhes {
   color: #636363;
+  border: 1px solid #d9d9d9;
   font-weight: 700;
   margin: 30px 0;
 }
 
 .tf-pix-detalhes-bottom p{
-  padding: 30px;
+  padding: 30px 5px;
   font-weight: 700;
   color: #007ad9;
 
@@ -77,38 +81,61 @@
 
 /*========================= doc Botões ========================= */
 
-.tf-doc-btn-container {
+
+.tf-pix-btn-container{
+  padding: 20px 0;
   display: flex;
   flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
+  border: 1px solid #d9d9d9;
+  margin: 0 20px;
 }
 
-.tf-doc-btn-envia {
-  background-color: #007ad9;
-  color: white;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
+.tf-pix-btn-envia a {
+   color: #fff;
+  text-transform: initial;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 5px;
-  font-weight: 700;
 }
-.tf-doc-btn-voltar {
-  background-color: #ee1313;
-  color: white;
+.tf-pix-btn-volta a {
+   color: #fff;
+  text-transform: initial;
+  text-decoration: none;
+}
+
+.tf-pix-btn-envia{
+  background-color: #007ad9;
+  border-radius: 5px;
+  height: 30px;
+  width: 190px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
-  padding: 15px 32px;
+  padding: 0 10px;
+  margin: 5px 5px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+
+}
+.tf-pix-btn-volta{
+  background-color: #c20f0f;
   border-radius: 5px;
+  height: 30px;
+  width: 190px;
+  font-size: 14px;
   font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0 10px;
+  margin: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+
 }
 
 .tf-doc-btn-envia {

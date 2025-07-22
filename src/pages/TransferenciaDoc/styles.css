@@ -30,6 +30,7 @@
   color: #636363;
   font-weight: 700;
   margin: 30px 0;
+  border: 1px solid #d9d9d9;
 }
 
 .tf-doc-detalhes-bottom p{
@@ -80,6 +81,65 @@
 
 /*========================= doc Botões ========================= */
 
+
+.tf-doc-btn-container{
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #d9d9d9;
+  margin: 0 20px;
+}
+
+.tf-doc-btn-envia a {
+   color: #fff;
+  text-transform: initial;
+  text-decoration: none;
+}
+.tf-doc-btn-volta a {
+   color: #fff;
+  text-transform: initial;
+  text-decoration: none;
+}
+
+.tf-doc-btn-envia{
+  background-color: #007ad9;
+  border-radius: 5px;
+  height: 30px;
+  width: 190px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0 10px;
+  margin: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+.tf-doc-btn-volta{
+  background-color: #c20f0f;
+  border-radius: 5px;
+  height: 30px;
+  width: 190px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0 10px;
+  margin: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+
+/*
 .tf-doc-btn-container {
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +149,7 @@
 
 .tf-doc-btn-envia {
   background-color: #007ad9;
-  color: white;
+  color: #fff;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -101,7 +161,7 @@
   font-weight: 700;
 }
 .tf-doc-btn-voltar {
-  background-color: #ee1313;
+  background-color: ;
   color: white;
   border: none;
   padding: 15px 32px;
@@ -121,3 +181,4 @@
 .btn-doc:active {
   transform: translate(2px);
 }
+  */

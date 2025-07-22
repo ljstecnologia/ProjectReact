@@ -35,7 +35,7 @@ body {
   height: 75px;
   padding: 0 ;
 }
-.logo-Pgw {
+.logo-Pgw :link{
   height: 60px;
   padding: 5px;
   margin-top: -70px;

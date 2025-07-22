@@ -1,10 +1,11 @@
 
-#tf-confim-container {
+#tf-confirm-container {
   padding: 20px;
 }
 
-.tf-doc-transf{
+.tf-confirm-transf{
   padding: 30px;
+  
   font-size: 14px;
   display: flex;
   justify-content: center;
@@ -19,14 +20,16 @@
 
 }
 
+.tf-confirm-detalhes {
+  border: 1px solid #d9d9d9;
+  color: #007ad9;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
 .tf-confirm-detalhes h3{
   color: #848484;
   padding: 30px 0;
-}
-.tf-confirm-detalhes {
-  color: #636363;
-  font-weight: 700;
-  margin: 30px 0;
 }
 
 .tf-confirm-dados{
@@ -42,55 +45,25 @@
 
 }
 
-/*========================= doc Formulario ========================= */
-
-.tf-doc-favorecido {
-  padding: 5px;
-}
-.tf-doc-favorecido-valor {
-  padding: 0 5px;
-}
-.tf-doc-favorecido-banco {
-  padding: 0 5px;
-}
-.tf-doc-favorecido-ag {
-  padding: 0 5px;
-}
-.tf-doc-favorecido-conta {
-  padding: 0 5px;
-}
-
-.tf-doc-favorecido input {
-  padding: 10px;
-  height: 25px;
-  width: 220px;
-}
-.tf-doc-favorecido-valor input {
-  padding: 10px;
-  height: 25px;
-  width: 120px;
-}
-.tf-doc-favorecido-ag input {
-  padding: 10px;
-  height: 25px;
-  width: 60px;
-}
-.tf-doc-favorecido-conta input {
-  padding: 10px;
-  height: 25px;
-  width: 100px;
-}
-
 /*========================= doc Botões ========================= */
 
-.tf-doc-btn-container {
+.tf-confirm-container {
   display: flex;
   flex-wrap: wrap;
-  display: flex;
-  justify-content: space-between;
 }
 
-.tf-doc-btn-envia {
+.tf-confirm-btn-conclui a {
+   color: #fff;
+  text-transform: initial;
+  text-decoration: none;
+}
+.tf-confirm-btn-cancela a {
+   color: #fff;
+  text-transform: initial;
+  text-decoration: none;
+}
+
+.tf-confirm-btn-conclui {
   background-color: #007ad9;
   color: white;
   border: none;
@@ -99,11 +72,11 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin-left: 5px;
   border-radius: 5px;
   font-weight: 700;
 }
-.tf-doc-btn-voltar {
+.tf-confirm-btn-cancela {
   background-color: #ee1313;
   color: white;
   border: none;
@@ -112,7 +85,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin-left: 10px;
   border-radius: 5px;
   font-weight: 700;
 }

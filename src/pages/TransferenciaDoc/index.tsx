@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css'
 
 export default function TransfDoc(){
@@ -16,6 +17,18 @@ export default function TransfDoc(){
             </div>
           </div>
       </section>
+      <div className="tf-doc-btn-container">
+        <div className="tf-doc-btn-envia">
+          <Link to="/ConfirmaTransferencia">
+            <a href="#">Enviar</a>
+          </Link>
+        </div>
+        <div className="tf-doc-btn-volta">
+          <Link to="/">
+            <a href="#">Voltar</a>
+          </Link>
+        </div>
+      </div>
     </main>
 
   );
