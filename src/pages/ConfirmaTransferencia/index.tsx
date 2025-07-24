@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css'
 export default function ConfirmaTransferencia(){
   return (
@@ -17,10 +18,14 @@ export default function ConfirmaTransferencia(){
       </section>
       <div className='tf-confirm-container'>
         <div className='tf-confirm-btn-conclui'>
-          <a href="#">Concluir</a>
+          
+          <a href="#">Conclui</a>
         </div>
         <div className='tf-confirm-btn-cancela'>
-          <a href="#">Cancela</a>
+          <Link to='/'>
+            Cancela
+          </Link>
+          
         </div>
       </div>
       

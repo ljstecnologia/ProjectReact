@@ -20,12 +20,12 @@ export default function TransfPix(){
       <div className="tf-pix-btn-container">
         <div className="tf-pix-btn-envia">
           <Link to="/ConfirmaTransferencia">
-            <a href="#">Enviar</a>
+            Enviar
           </Link>
         </div>
         <div className="tf-pix-btn-volta">
           <Link to="/">
-            <a href="#">Voltar</a>
+            Voltar
           </Link>
         </div>
       </div>

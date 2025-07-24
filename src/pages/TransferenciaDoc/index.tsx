@@ -20,12 +20,12 @@ export default function TransfDoc(){
       <div className="tf-doc-btn-container">
         <div className="tf-doc-btn-envia">
           <Link to="/ConfirmaTransferencia">
-            <a href="#">Enviar</a>
+            Enviar
           </Link>
         </div>
         <div className="tf-doc-btn-volta">
           <Link to="/">
-            <a href="#">Voltar</a>
+            Voltar
           </Link>
         </div>
       </div>
