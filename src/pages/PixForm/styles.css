@@ -1,0 +1,38 @@
+/*========================= Tipo de Pix ========================= */
+.tf-tipo-pix label {
+  padding: 20px auto;
+  margin-left: 20px;
+  color: #007ad9;
+  margin-top: 10px;
+}
+
+.tf-input-pix {
+  padding: 5px;
+  margin: 5px;
+}
+
+.container-tipo-pix {
+  padding: 10px;
+  margin: 15px;
+}
+/*========================= Formulario Pix ========================= */
+.container-tipo-pix label {
+  margin: -5px;
+}
+.forma-pix input {
+  margin-left: 10px;
+}
+
+.forma-pix-nome input {
+  width: 210px;
+}
+
+.forma-pix-valor input {
+  width: 90px;
+}
+
+.forma-pix-chave input {
+  width: 255px;
+}
+
+/*========================= doc Botões ========================= */

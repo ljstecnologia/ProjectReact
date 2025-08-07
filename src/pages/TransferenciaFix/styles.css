@@ -1,29 +1,27 @@
-
 #tf-pix-container {
   padding: 20px;
 }
 
-.tf-pix-transf{
+.tf-pix-transf {
   padding: 30px;
   font-size: 14px;
   display: flex;
   justify-content: center;
 
-  @media(max-width: 320px){
+  @media (max-width: 320px) {
     font-size: 12px;
   }
 
- @media(max-width: 344px){
+  @media (max-width: 344px) {
     font-size: 12px;
   }
-
 }
 
 .tf-pix-detalhes h3 {
   padding: 30px 0;
 }
 
-.tf-pix-detalhes h3{
+.tf-pix-detalhes h3 {
   color: #848484;
 }
 .tf-pix-detalhes {
@@ -33,23 +31,13 @@
   margin: 30px 0;
 }
 
-.tf-pix-detalhes-bottom p{
+.tf-pix-detalhes-bottom p {
   padding: 20px 5px;
   font-weight: 700;
   color: #007ad9;
-
 }
 
-/*========================= Tipo de Pix ========================= */
-.tf-tipo-pix label{
-  padding: 20px auto;
-  margin-left: 20px;
-  color: #007ad9;
-}
-/*========================= doc Botões ========================= */
-
-
-.tf-pix-btn-container{
+.tf-pix-btn-container {
   padding: 20px 0;
   display: flex;
   flex-wrap: wrap;
@@ -58,17 +46,17 @@
 }
 
 .tf-pix-btn-envia a {
-   color: #fff;
+  color: #fff;
   text-transform: initial;
   text-decoration: none;
 }
 .tf-pix-btn-volta a {
-   color: #fff;
+  color: #fff;
   text-transform: initial;
   text-decoration: none;
 }
 
-.tf-pix-btn-envia{
+.tf-pix-btn-envia {
   background-color: #007ad9;
   border-radius: 5px;
   height: 30px;
@@ -83,9 +71,8 @@
   margin: 5px 5px;
   text-align: center;
   text-decoration: none;
-
 }
-.tf-pix-btn-volta{
+.tf-pix-btn-volta {
   background-color: #c20f0f;
   border-radius: 5px;
   height: 30px;
@@ -100,7 +87,6 @@
   margin: 5px 5px;
   text-align: center;
   text-decoration: none;
-
 }
 
 .tf-doc-btn-envia {
